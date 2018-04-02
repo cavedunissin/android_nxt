@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="25sp" 
+    android:id="@+id/tv"
+    android:layout_x="0dip" 
+	android:layout_y="0dip"
+    android:text="Enter 0~100 value"
+    ></TextView>
+<EditText 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:id="@+id/edt" 
+	android:text="" 
+	android:layout_x="0dip" 
+	android:layout_y="35dip"
+	></EditText>
+<Button 
+	android:layout_height="wrap_content" 
+	android:id="@+id/btn_Enter" 
+	android:layout_width="fill_parent" 
+	android:text="Enter" 
+	android:layout_x="0dip" 
+	android:layout_y="86dip"
+	></Button>
+<SeekBar 
+	android:layout_height="wrap_content" 
+	android:id="@+id/sb" 
+	android:layout_width="fill_parent" 
+	android:max = "100"
+	android:layout_x="0dip" 
+	android:layout_y="133dip"
+	></SeekBar>
+</AbsoluteLayout>

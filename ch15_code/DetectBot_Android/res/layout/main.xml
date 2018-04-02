@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Enter the NXT Name!"
+    android:textSize="20sp"
+    android:background="#666"
+    android:textColor="#fff"
+    android:id="@+id/tv_condition"
+    ></TextView>
+<EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/edt_name"
+    android:text ="USER-PC"
+    ></EditText>
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Connect"
+    android:id="@+id/btn_connect"
+    ></Button>
+<SurfaceView android:id="@+id/mSurfaceView1"
+	android:layout_width="fill_parent"
+	android:layout_height="10dip"
+	android:layout_weight="1"
+	></SurfaceView>	
+</LinearLayout>

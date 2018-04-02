@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">This is ch5_LinearLayout!</string>
+    <string name="app_name">ch5_LinearLayout</string>
+    <color name="red">#ff00ff</color>
+    <string name="word_1">You are handsome</string>
+    <string name="word_2">You are beautiful</string>
+    <color name="yellow">#ffff00</color>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<Button
+android:id="@+id/Button_forward"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="forward"
+android:textSize="22sp"
+android:layout_x="112px"
+android:layout_y="72px"
+>
+</Button>
+<Button
+android:id="@+id/Button_turnl"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="turn left"
+android:textSize="22sp"
+android:layout_x="15px"
+android:layout_y="125px"
+>
+</Button>
+<Button
+android:id="@+id/Button_turnr"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="turn right"
+android:textSize="22sp"
+android:layout_x="207px"
+android:layout_y="124px"
+>
+</Button>
+<Button
+android:id="@+id/Button_backward"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="backward"
+android:textSize="22sp"
+android:layout_x="104px"
+android:layout_y="173px"
+>
+</Button>
+<RadioButton
+android:id="@+id/button_stop"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Stop"
+android:layout_x="57px"
+android:layout_y="273px"
+></RadioButton>
+
+</AbsoluteLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="condition">Please press the button</string>
+    <string name="app_name">ch6_Bluetooth_3</string>
+<string name="no_paired_devices">No paired devices</string>
+<string name="lightValue">The lightsensor value</string>
+</resources>

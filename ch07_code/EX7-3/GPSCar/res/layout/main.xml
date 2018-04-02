@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText
+    android:id="@+id/nxtName"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="kevin"
+    ></EditText>
+<Button
+    android:id="@+id/buttonConnect"
+    android:textSize="42sp"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Connect!"
+    ></Button>
+<TextView
+    android:text="Latitude:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    ></TextView>
+<EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/tv_latitude"
+    android:textSize="20sp"
+    ></EditText>
+<TextView
+    android:text="Longtitude:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    ></TextView>
+<EditText 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/tv_longitude"
+    android:textSize="20sp"
+    ></EditText>
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/tv_distance"
+    ></TextView>
+</LinearLayout>

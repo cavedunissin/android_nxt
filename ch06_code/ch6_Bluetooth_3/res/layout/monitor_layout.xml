@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+<TextView
+  android:text="@string/lightValue"
+  android:id="@+id/tv_condition"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:textSize="20sp"
+  android:background="#666"
+  android:textColor="#fff" 
+  ></TextView>
+<ProgressBar 
+  android:id="@+id/progressBarH"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  style="?android:attr/progressBarStyleHorizontal" 
+  android:max="100"
+  android:layout_x="0px"
+  android:layout_y="35px"
+  ></ProgressBar>    
+<TextView
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"
+  android:textSize="40sp"
+  android:id="@+id/tv_lightValue"
+  android:layout_x="138px"
+  android:layout_y="120px"
+  ></TextView> 
+</AbsoluteLayout>

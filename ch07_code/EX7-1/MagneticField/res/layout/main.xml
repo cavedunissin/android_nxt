@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hint"
+    android:textSize = "25sp"
+    android:background="#666"
+    android:textColor="#fff"
+    android:id="@+id/tv_hint"
+    />
+<EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:id="@+id/et_nxtName"
+    ></EditText>
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_connect"
+    android:text="Connect to NXT!"
+    android:textSize="36sp"
+    ></Button>
+</LinearLayout>
